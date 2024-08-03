@@ -12,7 +12,7 @@ namespace SydneyHotel
         {
             public string customerName { get; set; }
             public int nights { get; set; }
-            public string available_room { get; set; }    // Change1: Changing variable name
+            public string available_room { get; set; }    // Change1: Changing variable names
             public double totalPrice { get; set; }
 
         }
@@ -44,7 +44,7 @@ namespace SydneyHotel
         static void Main(string[] args)
         {
             Console.WriteLine(".................Welcome to Sydney Hotel...............");
-            Console.WriteLine("Our Hotel, Your Destination");   //Change 2: Adding one more message
+            Console.WriteLine("Our Hotel, Your Destination");   //Change 2: Adding one more messages
             Console.Write("\nEnter no. of Customer: ");
             int n = Convert.ToInt32(Console.ReadLine());
             if (n == 0)
